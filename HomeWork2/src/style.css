@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+}
+.container {
+  max-width: 1290px;
+  margin: 0 auto;
+}
+.counter-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+.center{
+  margin-top: 5em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: aqua;
+  text-align: center;
+  font: 600 4em "Concert One";
+}
+
+button {
+  padding: 20px 20px;
+  font: 700 19px/12px "Concert One";
+  color: darkslategrey;
+  outline: none;
+  border-radius: 10px;
+}
+
+button:not(:last-child){
+  margin-right: 10px;
+}
+
+.increase {
+  background-color: darkgray;
+  color: black;
+}
+
+.reset {
+  background-color: red;
+  color: beige;
+}
